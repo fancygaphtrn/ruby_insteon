@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'daemons'
+require 'pp'
+ 
+file = '/usr/src/insteon/serialserver.rb'
+options = {
+    :app_name   => "serialserverd",
+    :monitor    => true,
+   :log_output => true
+}
+
+Daemons.run(file,options)

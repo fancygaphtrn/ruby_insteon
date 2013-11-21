@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /usr/src/insteon
+/usr/bin/ruby insteond.rb start
+
