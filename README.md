@@ -10,7 +10,6 @@ The heart of the system is a set of Ruby scripts that run as a background task/d
 An event is:
 
 	Any Insteon message, such as a motion sensor on, light off, etc.
-  
 	A timed event, such as at 11:00pm
 
 A schedule is one of the following with optional offset and days of the week.  There can multiple of these.
