@@ -14,19 +14,13 @@ An event is:
 
 A schedule is one of the following with optional offset and days of the week.  There can multiple of these.
 
-  Before Time
-  
-  After Time
-  
-  At Time
-  
-  Before Sunrise
-  
-  After Sunrise
-  
-  Before Sunset
-  
-  After Sunset
+	Before Time
+	After Time
+	At Time
+	Before Sunrise
+	After Sunrise
+	Before Sunset
+	After Sunset
 
 A command is:
 
