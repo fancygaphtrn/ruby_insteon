@@ -24,11 +24,9 @@ A schedule is one of the following with optional offset and days of the week.  T
 
 A command is:
 
-  Any Insteon message, such as turn light off in 5 minutes
-  
-  An email, usefull when you are away and a motion sensor is turned on
-  
-  A command to a Directv DVR (experimental)
+	Any Insteon message, such as turn light off in 5 minutes
+	An email, usefull when you are away and a motion sensor is turned on
+	A command to a Directv DVR (experimental)
 
 Using these you can configure the system with sequences such as:
 
@@ -50,8 +48,7 @@ Insteon Event Kitchen motion on 30 min after Sunset and Before sunrise
 
 Other Ruby utilities include:
 
-spider.rb  will scan the Insteon network looking for devices and their link databases information, storing in the MySQL database
-	
-updatelinks.rb will update Insteon network link databases information, using information from the MySQL database
+	spider.rb  will scan the Insteon network looking for devices and their link databases information, storing in the MySQL database
+	updatelinks.rb will update Insteon network link databases information, using information from the MySQL database
 	
 To configure the database, provide reporting and monitoring,  I developed an administrative component for the Joomla CMS
