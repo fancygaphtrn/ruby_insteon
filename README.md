@@ -30,21 +30,15 @@ A command is:
 
 Using these you can configure the system with sequences such as:
 
-Timed Event All lights off At 11pm
+	Timed Event All lights off At 11pm
+  		Insteon Command Bathroom Light off Delay 0
+		Insteon Command Outside backporch Light off Delay 0
+		Insteon Command Shop porch Light off Delay 0
+		Insteon Command Tod's Room Table Desk light off Delay 0
+		Insteon Command Tod's Room Table Light off Delay 0
 
-  Insteon Command Bathroom Light off Delay 0
-  
-  Insteon Command Outside backporch Light off Delay 0
-  
-  Insteon Command Shop porch Light off Delay 0
-  
-  Insteon Command Tod's Room Table Desk light off Delay 0
-  
-  Insteon Command Tod's Room Table Light off Delay 0
-
-Insteon Event Kitchen motion on 30 min after Sunset and Before sunrise
-
-  Insteon Command Bathroom Light on Delay 0
+	Insteon Event Kitchen motion on 30 min after Sunset and Before sunrise
+		Insteon Command Bathroom Light on Delay 0
 
 Other Ruby utilities include:
 
